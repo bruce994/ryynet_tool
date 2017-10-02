@@ -54,7 +54,7 @@ if [ $CPU_LOAD -gt $CPU_THRESHOLD ] ; then
   EMAIL="1330407081@qq.com"
   echo "Active processes..." >>$EMAILMESSAGE
   echo "$PROCESS" >>$EMAILMESSAGE
-  mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
+  #mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 
 else
  echo

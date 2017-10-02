@@ -35,12 +35,10 @@ else:
     f.close()
 
 
-ipNum = "1000"
-#log = ['/home/log/20170210.zz.lanrenmb.cn-','/home/log/20160607.zz.lanrenmb.com-','/home/log/vote.txzcbee.cn-','/home/log/wxsy.zz.lanrenmb.cn-','/home/log/vote.lanrenmb.com-']
+ipNum = "500"
+log = ['/home/log/wxsy.zz.lanrenmb.cn-','/home/log/jiahe.zz.lanrenmb.com-']
 
-log  = open("/home/Tool/blacklist_site.txt")
-for f in log.readlines():
-    f = f[0:-1]
+for f in log:
     print f
     ssh_1 = "cat "+f+starttime.strftime("%Y-%m-%d")+".access.log |grep '"+current_date+"' |cut -d ' ' -f 1 |sort |uniq -c | awk '{if ($1 > "+ipNum+") print $2}'|sort -nr |less | awk '{print \"ipset add blacklist\",$0}'|sh"
     #print ssh_1

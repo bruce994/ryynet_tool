@@ -2,7 +2,7 @@
 ##Note: httpd restart
 #crontab 写全路径
 EMAILMESSAGE="/home/Tool/emailHttpd.txt"
-url=$(curl -I -m 10 -o /dev/null -s -w %{http_code}  test2.tt.lanrenmb.com/Home/index.php/Index/index/id/54.html)
+url=$(curl -I -m 10 -o /dev/null -s -w %{http_code}  vote.lanrenmb.com/Member/index.php?m=Public&a=login)
 echo $url >$EMAILMESSAGE
 if echo "$url" | grep -q "000"; then
     i="0"
@@ -23,7 +23,7 @@ if echo "$url" | grep -q "000"; then
     # Email To ?
     EMAIL="1330407081@qq.com"
     echo "httpd restart" >>$EMAILMESSAGE
-    mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
+    #mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
     exit 0
 fi
 exit 0
