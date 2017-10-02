@@ -23,7 +23,6 @@ ChangeUrl(document.title, n_url);
 replace_str = u"""""" #替换的字符串口
 
 
-
 i=0
 for parent,dirnames, filenames in os.walk(dir):
     for filename in filenames:

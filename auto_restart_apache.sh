@@ -9,6 +9,7 @@ do
     i=$[$i+1]
 done
 
+
 #防止报错信息：No space left on device 注意这里apache 根据 ipcs -s 查看获取
 /usr/bin/ipcs -s | grep apache | awk '{print $2}' | xargs ipcrm sem
 

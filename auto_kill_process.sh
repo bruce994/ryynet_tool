@@ -33,6 +33,7 @@ if [ $CPU_LOAD -gt $CPU_THRESHOLD ] ; then
   echo "$PROCESS" >>$EMAILMESSAGE
   mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 
+
 else
  echo
  echo no run-aways. 

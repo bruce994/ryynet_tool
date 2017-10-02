@@ -6,3 +6,4 @@ find /home2/ -name "Tpl" | while read line; do
      done
  done
 
+

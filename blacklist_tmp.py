@@ -35,6 +35,7 @@ else:
     f.close()
 
 
+
 ipNum = "500"
 log = ['/home/log/wxsy.zz.lanrenmb.cn-','/home/log/jiahe.zz.lanrenmb.com-']
 

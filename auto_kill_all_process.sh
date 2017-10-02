@@ -48,6 +48,7 @@ if [ $CPU_LOAD -gt $CPU_THRESHOLD ] ; then
       fi
   done
 
+
   # send an email using mail
   SUBJECT="zhejiang kill process"
   # Email To ?
