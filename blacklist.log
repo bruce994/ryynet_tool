@@ -2,9 +2,13 @@ ipset v6.11: Set cannot be created: set with the same name already exists
 cat: /home/log/20160607.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
 cat: /home/log/vote.txzcbee.cn-2017-10-02.access.log: No such file or directory
 cat: /home/log/sy.zz.lanrenmb.cn-2017-10-02.access.log: No such file or directory
-cat: /home/log/330161056.zz.ylwlb.com-2017-10-02.access.log: No such file or directory
 cat: /home/log/20170705.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
 cat: /home/log/tasd.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
@@ -264,6 +268,5 @@ Try `ipset help' for more information.
 /home/log/zl.zz.lanrenmb.com-
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
-/home/log/wxsy.zz.lanrenmb.cn-
 /home/log/scwl.zz.lanrenmb.com-
-9 sencond
+10 sencond
