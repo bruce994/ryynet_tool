@@ -26,5 +26,6 @@ if echo "$url" | grep -q "000"; then
     #mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
     exit 0
 fi
+
 exit 0
 
