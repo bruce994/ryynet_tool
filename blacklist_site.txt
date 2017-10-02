@@ -39,5 +39,4 @@
 /home/log/zl.zz.lanrenmb.com-
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
-/home/log/wxsy.zz.lanrenmb.cn-
 /home/log/scwl.zz.lanrenmb.com-
