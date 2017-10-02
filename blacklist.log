@@ -10,6 +10,8 @@ ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
 cat: /home/log/20170904.zz.lanrenmb.cn-2017-10-02.access.log: No such file or directory
 cat: /home/log/lswxt.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
 cat: /home/log/vote.hainanpost.cn-2017-10-02.access.log: No such file or directory
@@ -264,4 +266,4 @@ Try `ipset help' for more information.
 /home/log/vote.hainanpost.cn-
 /home/log/wxsy.zz.lanrenmb.cn-
 /home/log/scwl.zz.lanrenmb.com-
-7 sencond
+9 sencond
