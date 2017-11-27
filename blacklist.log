@@ -1,9 +1,19 @@
 ipset v6.11: Set cannot be created: set with the same name already exists
-cat: /home/log/20160607.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
-cat: /home/log/vote.txzcbee.cn-2017-10-02.access.log: No such file or directory
-cat: /home/log/sy.zz.lanrenmb.cn-2017-10-02.access.log: No such file or directory
-cat: /home/log/20170705.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
-cat: /home/log/tasd.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
+cat: /home/log/20170210.zz.lanrenmb.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/vote.txzcbee.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/sqqyfw.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+cat: /home/log/sy.zz.lanrenmb.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/sunshinevideo.zz.lanrenmb.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/tasd.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+ipset v6.11: Element cannot be added to the set: it's already added
+ipset v6.11: Element cannot be added to the set: it's already added
+cat: /home/log/20170812.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+cat: /home/log/20170904.zz.lanrenmb.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/zl.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+cat: /home/log/lswxt.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+cat: /home/log/vote.hainanpost.cn-2017-11-27.access.log: No such file or directory
+cat: /home/log/scwl.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
+cat: /home/log/longquan.zz.lanrenmb.com-2017-11-27.access.log: No such file or directory
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
@@ -13,12 +23,12 @@ ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
 ipset v6.11: Element cannot be added to the set: it's already added
-ipset v6.11: Element cannot be added to the set: it's already added
-ipset v6.11: Element cannot be added to the set: it's already added
-ipset v6.11: Element cannot be added to the set: it's already added
-cat: /home/log/20170904.zz.lanrenmb.cn-2017-10-02.access.log: No such file or directory
-cat: /home/log/lswxt.zz.lanrenmb.com-2017-10-02.access.log: No such file or directory
-cat: /home/log/vote.hainanpost.cn-2017-10-02.access.log: No such file or directory
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
@@ -269,4 +279,9 @@ Try `ipset help' for more information.
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
 /home/log/scwl.zz.lanrenmb.com-
-10 sencond
+/home/log/0455zd.zz.lanrenmb.com-
+/home/log/longquan.zz.lanrenmb.com-
+/home/log/zx.zz.lanrenmb.com-
+/home/log/shgg.zz.lanrenmb.com-
+/home/log/vote.link3.cn-
+13 sencond

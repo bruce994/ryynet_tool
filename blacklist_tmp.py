@@ -36,8 +36,8 @@ else:
 
 
 
-ipNum = "500"
-log = ['/home/log/wxsy.zz.lanrenmb.cn-','/home/log/jiahe.zz.lanrenmb.com-']
+ipNum = "400"
+log = ['/home/log/longquan.zz.lanrenmb.com-','/home/log/scwl.zz.lanrenmb.com-']
 
 for f in log:
     print f
