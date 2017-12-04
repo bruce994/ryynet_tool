@@ -51,7 +51,7 @@ for f in log.readlines():
 
 
 #移除腾讯CDN IP
-cdns = ['183.3.254.','58.250.143.','123.151.76.','111.161.109.']
+cdns = ['183.3.254.','58.250.143.','101.227.163.','123.151.76.','111.161.109.','140.207.120.']
 for cdn in cdns :
     for x in xrange(1,255):
         os.system("ipset del blacklist "+cdn+str(x)+"")
