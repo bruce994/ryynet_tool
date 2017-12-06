@@ -45,3 +45,4 @@
 /home/log/zx.zz.lanrenmb.com-
 /home/log/shgg.zz.lanrenmb.com-
 /home/log/vote.link3.cn-
+/home/log/vote.lanrenmb.com-

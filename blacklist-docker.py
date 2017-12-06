@@ -43,7 +43,7 @@ else:
 ipNum = "1000"
 #log = ['/home2/ryynet_docker/log/jiahe.zz.lanrenmb.com-']
 
-log  = open("/home2/ryynet_docker/ryynet_tool/blacklist_site.txt")
+log  = open("/home2/ryynet_docker/ryynet_tool/blacklist_site_docker.txt")
 for f in log.readlines():
     f = f[0:-1]
     print f
@@ -56,7 +56,7 @@ for f in log.readlines():
 
 
 #移除腾讯CDN IP
-cdns = ['183.3.254.','58.250.143.','101.227.163.','123.151.76.','111.161.109.','140.207.120.']
+cdns = ['183.3.254.','58.250.143.','101.227.163.','123.151.76.','111.161.109.','140.207.120.','58.247.212.']
 for cdn in cdns :
     for x in xrange(1,255):
         os.system("ipset del blacklist "+cdn+str(x)+"")
