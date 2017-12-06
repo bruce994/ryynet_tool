@@ -10,6 +10,11 @@ import calendar
 starttime = datetime.datetime.now()
 
 
+
+#docker 阻止ipset集合 先执行如何命令
+#iptables -I DOCKER -m set --match-set blacklist src -p tcp --destination-port 80 -j DROP
+
+
 year = starttime.strftime("%Y")
 month = starttime.strftime("%B")[:3]
 day = starttime.strftime("%d")
