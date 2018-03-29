@@ -38,7 +38,6 @@
 /home/log/20170623.zz.lanrenmb.com-
 /home/log/20170904.zz.lanrenmb.com-
 /home/log/20171125.tp.lanrenmb.cn-
-/home/log/20171201.tp.lanrenmb.cn-
 /home/log/zl.zz.lanrenmb.com-
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
