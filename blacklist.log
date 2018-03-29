@@ -1745,7 +1745,6 @@ ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
-ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Syntax error: cannot resolve '59.172.*.*' to an IPv4 address: Name or service not known
 Syntax error: cannot parse 59.172.*.*: resolving to IPv4 address failed
 ipset v6.11: Missing second mandatory argument to command del
