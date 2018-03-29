@@ -29,13 +29,16 @@
 /home/log/jm.zz.lanrenmb.com-
 /home/log/sd.zz.lanrenmb.com-
 /home/log/wanchengmz.zz.lanrenmb.com-
+/home/log/20160725.zz.lanrenmb.com-
 /home/log/20170812.zz.lanrenmb.com-
 /home/log/20170809.zz.lanrenmb.com-
 /home/log/20170818.zz.lanrenmb.com-
 /home/log/20170825.zz.lanrenmb.com-
 /home/log/460452243.zz.ylwlb.com-
-/home/log/20170623.zz.lanrenmb.cn-
-/home/log/20170904.zz.lanrenmb.cn-
+/home/log/20170623.zz.lanrenmb.com-
+/home/log/20170904.zz.lanrenmb.com-
+/home/log/20171125.tp.lanrenmb.cn-
+/home/log/20171201.tp.lanrenmb.cn-
 /home/log/zl.zz.lanrenmb.com-
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
@@ -45,4 +48,3 @@
 /home/log/zx.zz.lanrenmb.com-
 /home/log/shgg.zz.lanrenmb.com-
 /home/log/vote.link3.cn-
-/home/log/vote.lanrenmb.com-

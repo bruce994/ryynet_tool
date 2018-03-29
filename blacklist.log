@@ -1,15 +1,31 @@
 ipset v6.11: Set cannot be created: set with the same name already exists
-cat: /home/log/vote.txzcbee.cn-2017-12-06.access.log: No such file or directory
-cat: /home/log/tasd.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-cat: /home/log/20170812.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-cat: /home/log/20170904.zz.lanrenmb.cn-2017-12-06.access.log: No such file or directory
-cat: /home/log/zl.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-cat: /home/log/lswxt.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-cat: /home/log/vote.hainanpost.cn-2017-12-06.access.log: No such file or directory
-cat: /home/log/scwl.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-cat: /home/log/shgg.zz.lanrenmb.com-2017-12-06.access.log: No such file or directory
-ipset v6.11: Syntax error: cannot resolve '::1' to an IPv4 address: Address family for hostname not supported
-Syntax error: cannot parse ::1: resolving to IPv4 address failed
+cat: /home/log/20170210.zz.lanrenmb.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/20160607.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/vote.txzcbee.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/sy.zz.lanrenmb.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/snwh.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/44748194.zz.lanrenmb.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/syfb.zz.lanrenmb.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/20170705.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/chaoxing.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/20170620.zz.lanrenmb.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/tasd.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/20170818.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/20170623.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/20170904.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/zl.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/lswxt.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/vote.hainanpost.cn-2018-03-29.access.log: No such file or directory
+cat: /home/log/scwl.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+cat: /home/log/shgg.zz.lanrenmb.com-2018-03-29.access.log: No such file or directory
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
+ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
 ipset v6.11: Element cannot be deleted from the set: it's not added
@@ -1767,13 +1783,16 @@ Try `ipset help' for more information.
 /home/log/jm.zz.lanrenmb.com-
 /home/log/sd.zz.lanrenmb.com-
 /home/log/wanchengmz.zz.lanrenmb.com-
+/home/log/20160725.zz.lanrenmb.com-
 /home/log/20170812.zz.lanrenmb.com-
 /home/log/20170809.zz.lanrenmb.com-
 /home/log/20170818.zz.lanrenmb.com-
 /home/log/20170825.zz.lanrenmb.com-
 /home/log/460452243.zz.ylwlb.com-
-/home/log/20170623.zz.lanrenmb.cn-
-/home/log/20170904.zz.lanrenmb.cn-
+/home/log/20170623.zz.lanrenmb.com-
+/home/log/20170904.zz.lanrenmb.com-
+/home/log/20171125.tp.lanrenmb.cn-
+/home/log/20171201.tp.lanrenmb.cn-
 /home/log/zl.zz.lanrenmb.com-
 /home/log/lswxt.zz.lanrenmb.com-
 /home/log/vote.hainanpost.cn-
@@ -1783,5 +1802,4 @@ Try `ipset help' for more information.
 /home/log/zx.zz.lanrenmb.com-
 /home/log/shgg.zz.lanrenmb.com-
 /home/log/vote.link3.cn-
-/home/log/vote.lanrenmb.com-
-9 sencond
+5 sencond
