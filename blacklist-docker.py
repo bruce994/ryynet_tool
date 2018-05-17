@@ -10,9 +10,10 @@ import calendar
 starttime = datetime.datetime.now()
 
 
-
+#先删除
+os.system("iptables -D DOCKER -m set --match-set blacklist src -p tcp --destination-port 80 -j DROP")
 #docker 阻止ipset集合 先执行如何命令
-#iptables -I DOCKER -m set --match-set blacklist src -p tcp --destination-port 80 -j DROP
+os.system("iptables -I DOCKER -m set --match-set blacklist src -p tcp --destination-port 80 -j DROP")
 
 
 year = starttime.strftime("%Y")
@@ -24,26 +25,27 @@ current_date =  day + "/" + month + "/" + year
 
 os.system("ipset create blacklist hash:ip hashsize 4096 maxelem 1000000")  #创建集合，由于ipse存在于内存中,重启服务器失效，所以需要创建
 
+os.system("ipset flush blacklist")  #清空blacklist 集合
 
-blacklist_date = "/home2/ryynet_docker/ryynet_tool/blacklist_date.txt"
-if os.path.isfile(blacklist_date):
-    f = open(blacklist_date, 'r')
-    date1 = f.read()
-    if date1 != current_date :
-        os.system("ipset flush blacklist")  #清空blacklist 集合
-        f = open(blacklist_date, 'w')
-        f.write(current_date)
-        f.close()
-else:
-    f = open(blacklist_date, 'w')
-    f.write(current_date)
-    f.close()
+#blacklist_date = "/home/ryynet1/Tool/blacklist_date.txt"
+#if os.path.isfile(blacklist_date):
+#    f = open(blacklist_date, 'r')
+#    date1 = f.read()
+#    if date1 != current_date :
+#        os.system("ipset flush blacklist")  #清空blacklist 集合
+#        f = open(blacklist_date, 'w')
+#        f.write(current_date)
+#        f.close()
+#else:
+#    f = open(blacklist_date, 'w')
+#    f.write(current_date)
+#    f.close()
 
 
-ipNum = "1000"
+ipNum = "700"
 #log = ['/home2/ryynet_docker/log/jiahe.zz.lanrenmb.com-']
 
-log  = open("/home2/ryynet_docker/ryynet_tool/blacklist_site_docker.txt")
+log  = open("/home/ryynet1/Tool/blacklist_site_docker.txt")
 for f in log.readlines():
     f = f[0:-1]
     print f
@@ -51,8 +53,8 @@ for f in log.readlines():
     #print ssh_1
     os.system(ssh_1)
 
-
-
+#手动添加指定IP
+os.system("cat /home/ryynet1/Tool/blacklist.ip.list | awk '{print \"ipset add blacklist\",$0}'|sh")
 
 
 #移除腾讯CDN IP
@@ -64,7 +66,7 @@ for cdn in cdns :
 
 
 #移除指定IP
-os.system("cat /home2/ryynet_docker/ryynet_tool/ignore.ip.list | awk '{print \"ipset del blacklist\",$0}'|sh")
+os.system("cat /home/ryynet1/Tool/ignore.ip.list | awk '{print \"ipset del blacklist\",$0}'|sh")
 
 endtime = datetime.datetime.now()
 print str((endtime - starttime).seconds) + ' sencond' #执行时间

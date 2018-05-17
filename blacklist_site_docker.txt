@@ -1,7 +1,2 @@
-/home2/ryynet_docker/logs/zjd.lanrenmb.com-
-/home2/ryynet_docker/logs/scwl.zz.lanrenmb.com-
-/home2/ryynet_docker/logs/wrb.zz.lanrenmb.com-
-/home2/ryynet_docker/logs/20170812.zz.lanrenmb.com-
-/home2/ryynet_docker/logs/20171123.tp.lanrenmb.cn-
-/home2/ryynet_docker/logs/20171122.lanrenmb.com-
-/home2/ryynet_docker/logs/shgg.zz.lanrenmb.com-
+/home/ryynet_docker/logs/wanchengmz.zz.lanrenmb.com-
+/home/ryynet_docker/logs/20160725.zz.lanrenmb.com-
