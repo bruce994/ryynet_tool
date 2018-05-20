@@ -42,7 +42,7 @@ os.system("ipset flush blacklist")  #清空blacklist 集合
 #    f.close()
 
 
-ipNum = "700"
+ipNum = "500"
 #log = ['/home2/ryynet_docker/log/jiahe.zz.lanrenmb.com-']
 
 log  = open("/home/ryynet1/Tool/blacklist_site_docker.txt")
@@ -56,9 +56,8 @@ for f in log.readlines():
 #手动添加指定IP
 os.system("cat /home/ryynet1/Tool/blacklist.ip.list | awk '{print \"ipset add blacklist\",$0}'|sh")
 
-
 #移除腾讯CDN IP
-cdns = ['183.3.254.','58.250.143.','101.227.163.','123.151.76.','111.161.109.','140.207.120.','58.247.212.']
+cdns = ['112.29.152.','112.90.51.','113.207.39.','115.231.37.','117.169.77.','117.34.36.','119.147.227.','120.41.44.','125.39.6.','180.163.68.','182.247.229.','218.60.33.','219.146.241.','220.170.91.','221.204.182.','222.161.220.','223.87.3.','42.236.2.','58.216.25.','60.174.156.','61.184.213.','61.240.150.','183.3.254.','58.250.143.','101.227.163.','123.151.76.','111.161.109.','140.207.120.']
 for cdn in cdns :
     for x in xrange(1,255):
         os.system("ipset del blacklist "+cdn+str(x)+"")
