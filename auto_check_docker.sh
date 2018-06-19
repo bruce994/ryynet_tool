@@ -10,7 +10,7 @@ if echo "$url" | grep -q "000"; then
     echo $domain"-"$url-$DATE > $EMAILMESSAGE
 
     SUBJECT="docker restart lanren"
-    EMAIL="1330407081@qq.com"
+    EMAIL="271059875@qq.com"
     mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 fi
 

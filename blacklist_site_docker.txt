@@ -1,2 +1,3 @@
-/home/ryynet_docker/logs/wanchengmz.zz.lanrenmb.com-
-/home/ryynet_docker/logs/20160725.zz.lanrenmb.com-
+/home/ryynet_docker/logs/vote.lanrenmb.com-
+/home/ryynet_docker/logs/bao.lanrenmb.com-
+/home/ryynet_docker/logs/20160829.zz.lanrenmb.com-
