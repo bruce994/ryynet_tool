@@ -1,3 +1,2 @@
-/home/ryynet_docker/logs/vote.lanrenmb.com-
-/home/ryynet_docker/logs/bao.lanrenmb.com-
+/home/ryynet_docker/logs/1048762540.tt.ylwlb.com-
 /home/ryynet_docker/logs/20160829.zz.lanrenmb.com-

@@ -12,7 +12,7 @@ import datetime
 
 
 
-path = "/home2/Guest/virtual_guest/www.pzjhome.com/"
+path = "/home/ryynet1/www/chuanyuebuluo.lanrenmb.com/"
 dirList = os.listdir(path)
 
 check = ["1","11.sql","1208pzj.zip","2.6.zip","a","admin","adminer-4.3.1-mysql.php","anli.php","chaigai","data","fangshui","favicon.ico","fuwuliucheng","guanyuwomen","httpd.ini","huodong","huodong_pc","images","include","index.htm","index.html","index.php","install","jingdiananli","jungong","lianxiwomen","m","member","misc","mugong","niwa","old_admin","pc_price.php","plus","price","price.php","price_success.html","price_success.html.bak","publics","README.md","robots.txt","search_case.php","search_desgin.php","shejituandui","shijingyangbanjian","shuidian","special","tags.php","templets","test.php","uploads","wap","youqi","zaixianyuyue","zhuangxiuzhibo","zhuangxiuzhishi","zhuyingyewu","gong",".git",".gitignore"]
@@ -28,8 +28,8 @@ for fname in dirList:
                         shutil.rmtree(tmp)
                 print tmp
 
-start="8:30:00"
-End="18:30:00"
+start="9:30:00"
+End="10:30:00"
 now = datetime.datetime.now()
 Tocompare=now.strftime("%H:%M:%S")
 print Tocompare
@@ -49,5 +49,5 @@ else :
 
 
 os.system("chattr +a -R uploads")
-os.system("chattr +i -R include/ admin/ old_admin/ plus/ templets/  misc/ tags.php robots.txt ")
+os.system("chattr +i -R include/ lanren/ plus/ templets/ tags.php robots.txt ")
 os.system("chattr -i -R data/tplcache/ data/sessions/ data/cache/ index.html ")
