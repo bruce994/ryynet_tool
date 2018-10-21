@@ -1,2 +1,3 @@
+/home/ryynet_docker/logs/20180827.tp.lanrenmb.cn-
 /home/ryynet_docker/logs/1048762540.tt.ylwlb.com-
 /home/ryynet_docker/logs/20160829.zz.lanrenmb.com-
