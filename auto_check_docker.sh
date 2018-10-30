@@ -14,7 +14,6 @@ if echo "$url" | grep -q "000"; then
     mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 fi
 
-
 domain="20180516.tp.lanrenmb.com/Member/index.php"
 url=$(curl -I -m 10 -o /dev/null -s -w %{http_code} $domain )
 if echo "$url" | grep -q "000"; then
@@ -26,7 +25,6 @@ if echo "$url" | grep -q "000"; then
     EMAIL="271059875@qq.com"
     mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 fi
-
 
 
 domain="wanchengmz.zz.lanrenmb.com/Member/index.php"
@@ -41,6 +39,17 @@ if echo "$url" | grep -q "000"; then
     mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
 fi
 
+domain="20180828.tp.lanrenmb.cn/Member/index.php"
+url=$(curl -I -m 10 -o /dev/null -s -w %{http_code} $domain )
+if echo "$url" | grep -q "000"; then
+    docker restart payUser >> $EMAILMESSAGE
+    DATE=`date '+%Y-%m-%d %H:%M:%S'`
+    echo $domain"-"$url-$DATE > $EMAILMESSAGE
+
+    SUBJECT="docker restart payUser2"
+    EMAIL="271059875@qq.com"
+    mail -s "$SUBJECT" "$EMAIL" < $EMAILMESSAGE
+fi
 
 
 # -----------------------------------------------------------------
