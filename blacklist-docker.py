@@ -59,7 +59,8 @@ for f in log.readlines():
     os.system(remove_ip)
     remove_ip = "cat "+f+starttime.strftime("%Y-%m-%d")+"-access.log |grep 'notify_url.php' |cut -d ' ' -f 1 |sort |uniq -c | awk '{if ($1 > 1) print $2}'|sort -nr |less | awk '{print \"ipset del blacklist\",$0}'|sh"
     os.system(remove_ip)
-
+    remove_ip = "cat "+f+starttime.strftime("%Y-%m-%d")+"-access.log |grep 'Member/index.php' |cut -d ' ' -f 1 |sort |uniq -c | awk '{if ($1 > 1) print $2}'|sort -nr |less | awk '{print \"ipset del blacklist\",$0}'|sh"
+    os.system(remove_ip)
 #手动添加指定IP
 os.system("cat /home/ryynet1/Tool/blacklist.ip.list | awk '{print \"ipset add blacklist\",$0}'|sh")
 
