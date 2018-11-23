@@ -42,7 +42,7 @@ os.system("ipset flush blacklist")  #清空blacklist 集合
 #    f.close()
 
 
-ipNum = "600"
+ipNum = "1000"
 #log = ['/home2/ryynet_docker/log/jiahe.zz.lanrenmb.com-']
 
 log  = open("/home/ryynet1/Tool/blacklist_site_docker.txt")
