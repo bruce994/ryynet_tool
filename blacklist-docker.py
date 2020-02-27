@@ -45,6 +45,11 @@ os.system("ipset flush blacklist")  #清空blacklist 集合
 ipNum = "1000"
 #log = ['/home2/ryynet_docker/log/jiahe.zz.lanrenmb.com-']
 
+f = '/home/ryynet_docker/logs/access.log'
+ssh_1 = "cat "+f+" |grep '"+current_date+"' |cut -d ' ' -f 1 |sort |uniq -c | awk '{if ($1 > "+ipNum+") print $2}'|sort -nr |less | awk '{print \"ipset add blacklist\",$0}'|sh"
+os.system(ssh_1)
+
+
 log  = open("/home/ryynet1/Tool/blacklist_site_docker.txt")
 for f in log.readlines():
     f = f[0:-1]
